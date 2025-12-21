@@ -1,6 +1,6 @@
 # 👾 Prof. Laerte Peotta – Cyber Guardian 🚀
 
-**🔐 Mestre e Doutor em Engenharia Elétrica | Arquiteto da Segurança Digital | Professor & Pesquisador em Segurança Cibernética**
+**🔐 Mestre e Doutor em Engenharia Elétrica | Professor & Pesquisador em Segurança Cibernética**
 
 ---
 
