@@ -25,6 +25,31 @@
 - 🌐 **Segurança Bancária:** Proteção de transações e sistemas em escala massiva.
   
 ---
+---
+
+## 📘 Disciplinas
+
+Repositórios com materiais didáticos, laboratórios práticos, roteiros experimentais e recursos de apoio para disciplinas de graduação e pós-graduação na área de redes e segurança da informação.
+
+### 🎓 Graduação
+
+- **ENE0011 – Laboratório de Redes**  
+  Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.  
+  👉 https://github.com/peotta/PTR
+
+- **ENE0025 – Protocolos de Transporte e Roteamento**  
+  Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
+  👉 https://github.com/peotta/ENE0025
+
+### 🎓 Pós-Graduação
+
+- **Tópicos Avançados em Cyber Segurança**  
+  Cibercrimes, ataques cibernéticos, redes anônimas, vulnerabilidades e privacidade.  
+  👉 https://github.com/peotta/topicos-avancados-cyber
+
+---
+
+
 
 ## 📂 Projetos & Iniciativas
 
