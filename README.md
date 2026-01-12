@@ -25,7 +25,16 @@
 - 🌐 **Segurança Bancária:** Proteção de transações e sistemas em escala massiva.
   
 ---
+
+
+## 🦅 Grupo de Pesquisa RAVENS
+
+O **RAVENS – Research Group on Advanced Vulnerabilities, Networks and Security** é um grupo de pesquisa dedicado ao estudo avançado de **cibersegurança**, **redes de computadores**, **vulnerabilidades**, **defesa cibernética** e **análise de ameaças**.
+
+👉 https://github.com/peotta/ravens
+
 ---
+
 
 ## 📘 Disciplinas
 
