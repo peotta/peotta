@@ -44,11 +44,11 @@ Repositórios com materiais didáticos, laboratórios práticos, roteiros experi
 
 - **ENE0011 – Laboratório de Redes**  
   Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.  
-  👉 https://github.com/peotta/PTR
+  👉 https://github.com/peotta/labredes
 
 - **ENE0025 – Protocolos de Transporte e Roteamento**  
   Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
-  👉 https://github.com/peotta/ENE0025
+  👉 https://github.com/peotta/PTR
 
 ### 🎓 Pós-Graduação
 
