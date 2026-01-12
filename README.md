@@ -66,10 +66,6 @@ Repositórios com materiais didáticos, laboratórios práticos, roteiros experi
 - Protocolo robusto de autenticação visual para transações bancárias.
 - [Leia mais](https://doi.org/10.3390/cryptography8040051)
 
-### 🔬 **Pesquisas em Criptomoedas**
-- Exploração de vulnerabilidades e evolução das tecnologias de blockchain.
-- [Capítulo em andamento](https://github.com/seuprojeto/criptomoedas)
-
 ### 🚀 **Aulas e Materiais Didáticos**
 - Recursos abertos para graduandos e profissionais:
   - Criptografia Assimétrica
