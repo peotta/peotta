@@ -50,6 +50,12 @@ Repositórios com materiais didáticos, laboratórios práticos, roteiros experi
   Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
   👉 https://github.com/peotta/PTR
 
+- ****ENE0021 – Tópicos em Redes de Comunicação 3****  
+ A disciplina aborda tópicos avançados em **segurança de redes de comunicação**, contemplando princípios, técnicas, arquiteturas e práticas utilizadas na proteção de sistemas computacionais modernos. São discutidos aspectos de criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital e tendências atuais, incluindo DevSecOps e automação de segurança.
+
+  👉 https://github.com/peotta/topicos
+
+  
 ### 🎓 Pós-Graduação - PPEE - Mestrado profissional em Cybersegurança
 
 - **Tópicos Avançados em Cyber Segurança**  
