@@ -50,7 +50,7 @@ Repositórios com materiais didáticos, laboratórios práticos, roteiros experi
   Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
   👉 https://github.com/peotta/PTR
 
-### 🎓 Pós-Graduação
+### 🎓 Pós-Graduação - PPEE - Mestrado profissional em Cybersegurança
 
 - **Tópicos Avançados em Cyber Segurança**  
   Cibercrimes, ataques cibernéticos, redes anônimas, vulnerabilidades e privacidade.  
