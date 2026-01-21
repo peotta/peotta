@@ -94,6 +94,7 @@ Repositórios com materiais didáticos, laboratórios práticos, roteiros experi
 🐱 **GitHub:** [github.com/laertepeotta](https://github.com/peotta)  
 🧑‍🔬 **ORCID:** [orcid.org/0000-0002-2075-6601](https://orcid.org/0000-0002-2075-6601)  
 📚 **Lattes:** [lattes.cnpq.br/0746844511320579](https://lattes.cnpq.br/0746844511320579)  
+📚 **dhlp:** [https://dblp.org/pid/235/0910.html](https://dblp.org/pid/235/0910.html) 
 
 ---
 
