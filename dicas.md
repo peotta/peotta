@@ -2,13 +2,14 @@
 
 ## 🧭 Orientações Gerais
 
-Redação deve ser feita **na terceira pessoa do singular** e com **verbos na voz ativa**.  
-Todas as seções devem ser **numeradas**.  
-Antes de iniciar cada nova seção, recomenda-se inserir um pequeno parágrafo introdutório explicando o que será apresentado naquele capítulo.
+- Redação deve ser feita **na terceira pessoa do singular** e com **verbos na voz ativa**.  
+- Todas as seções devem ser **numeradas**.  
+- Antes de iniciar cada nova seção, recomenda-se inserir um pequeno parágrafo introdutório explicando o que será apresentado naquele capítulo.
+- Para links muito longos, recomenda-se o uso de **encurtadores de URL**, pois isso melhora a estética e a padronização do trabalho.
+  
+>Também é possível incluir uma **lista de abreviaturas** como elemento opcional. Essa lista deve ser organizada em ordem alfabética, trazendo cada abreviatura seguida de seu significado por extenso, conforme a **NBR 10522**.
 
-Também é possível incluir uma **lista de abreviaturas** como elemento opcional. Essa lista deve ser organizada em ordem alfabética, trazendo cada abreviatura seguida de seu significado por extenso, conforme a **NBR 10522**.
 
-Para links muito longos, recomenda-se o uso de **encurtadores de URL**, pois isso melhora a estética e a padronização do trabalho.
 
 ### ✅ Boas práticas
 - escrever de forma clara, objetiva e impessoal;
@@ -56,7 +57,7 @@ Deve:
 - ter entre **150 e 500 palavras**, conforme a **NBR 6028/2002**;
 - ser seguido de, no mínimo, **três palavras-chave** representativas do conteúdo.
 
-Além disso, o resumo deve vir **precedido da referência do trabalho**, para facilitar sua identificação em caso de reprodução da página.
+> O resumo deve vir **precedido da referência do trabalho**, para facilitar sua identificação em caso de reprodução da página.
 
 ### 💡 O que incluir no resumo
 - tema do trabalho;
