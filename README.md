@@ -33,6 +33,10 @@ O **RAVENS – Research Group on Advanced Vulnerabilities, Networks and Security
 
 👉 https://github.com/peotta/ravens
 
+## 🦅 Como escrever um artigo ou um TCC
+
+👉 https://github.com/peotta/dicas.md
+
 ---
 
 
