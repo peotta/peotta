@@ -43,20 +43,21 @@ O **RAVENS – Research Group on Advanced Vulnerabilities, Networks and Security
 Repositórios com materiais didáticos, laboratórios práticos, roteiros experimentais e recursos de apoio para disciplinas de graduação e pós-graduação na área de redes e segurança da informação.
 
 ### 🎓 Graduação
+---
 
 - **ENE0011 – Laboratório de Redes**  
   Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.  
-  👉 https://github.com/peotta/labredes
-
+  👉 https://github.com/peotta/labredes   
+---
 - **ENE0025 – Protocolos de Transporte e Roteamento**  
   Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
   👉 https://github.com/peotta/PTR
-
+---
 - ****ENE0021 – Tópicos em Redes de Comunicação 3****  
  A disciplina aborda tópicos avançados em **segurança de redes de comunicação**, contemplando princípios, técnicas, arquiteturas e práticas utilizadas na proteção de sistemas computacionais modernos. São discutidos aspectos de criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital e tendências atuais, incluindo DevSecOps e automação de segurança.
 
   👉 https://github.com/peotta/topicos
-
+---
   
 ### 🎓 Pós-Graduação - PPEE - Mestrado profissional em Cybersegurança
 
