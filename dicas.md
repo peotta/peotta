@@ -67,9 +67,10 @@ Deve:
 - conclusão sintética.
 
 ### 📌 Exemplo de resumo
-> Este trabalho analisa os principais mecanismos de autenticação multifator aplicados ao contexto bancário digital, com foco em segurança, usabilidade e resistência a fraudes. A pesquisa foi conduzida por meio de revisão bibliográfica e estudo comparativo entre métodos amplamente utilizados no setor financeiro. Os resultados indicam que a combinação entre fatores biométricos e elementos contextuais aumenta a robustez dos mecanismos de autenticação, embora existam desafios relacionados à privacidade e à experiência do usuário. Conclui-se que a adoção de abordagens adaptativas representa alternativa promissora para o fortalecimento da segurança em transações eletrônicas.  
+> Resumo: Análise de Resiliência contra Ataques de Exfiltração em Ambientes de Nuvem
+[Contexto] A crescente sofisticação de ataques de movimentação lateral em infraestruturas híbridas tem contornado firewalls tradicionais, expondo dados sensíveis de forma crítica. [Objetivo] Este trabalho propõe um algoritmo de detecção de anomalias baseado em comportamento de rede para identificar exfiltração de dados em tempo real. [Metodologia] A metodologia envolveu a simulação de ataques de Command & Control (C2) em um ambiente controlado utilizando Kali Linux e monitoramento via logs do Zeek/Bro. [Resultados] Os testes demonstraram uma taxa de detecção de 94% para tráfego criptografado, com uma redução de 15% no overhead de processamento em relação a assinaturas estáticas. [Conclusão] Conclui-se que a abordagem fortalece a camada de detecção precoce, sendo essencial para a implementação de uma arquitetura Zero Trust.
 >
-> **Palavras-chave:** autenticação multifator; segurança bancária; fraudes digitais.
+> **Palavras-chave:** Exfiltração de Dados, Segurança em Nuvem, Detecção de Anomalias, Command and Control (C2), Arquitetura Zero Trust.
 
 ---
 
