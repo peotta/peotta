@@ -1,105 +1,161 @@
-# 👾 Prof. Laerte Peotta – Cyber Guardian 🚀
+<div align="center">
 
-**🔐 Mestre e Doutor em Engenharia Elétrica | Professor & Pesquisador em Segurança Cibernética**
+<h1>Prof. Dr. Laerte Peotta de Melo</h1>
 
----
+<p>
+  <strong>Professor | Pesquisador | Segurança Cibernética | Redes de Computadores</strong>
+</p>
 
-## 🌌 Sobre Mim
+<p>
+  <a href="mailto:peotta@gmail.com">
+    <img src="https://img.shields.io/badge/E--mail-peotta%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail">
+  </a>
+  <a href="https://orcid.org/0000-0002-2075-6601">
+    <img src="https://img.shields.io/badge/ORCID-0000--0002--2075--6601-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID">
+  </a>
+  <a href="https://lattes.cnpq.br/0746844511320579">
+    <img src="https://img.shields.io/badge/Lattes-Curr%C3%ADculo-005CA9?style=for-the-badge" alt="Lattes">
+  </a>
+  <a href="https://dblp.org/pid/235/0910.html">
+    <img src="https://img.shields.io/badge/DBLP-Perfil-1F6FEB?style=for-the-badge" alt="DBLP">
+  </a>
+  <a href="https://linkedin.com/in/laertepeotta">
+    <img src="https://img.shields.io/badge/LinkedIn-Laerte%20Peotta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/peotta">
+    <img src="https://img.shields.io/badge/GitHub-peotta-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
-👨‍💻 **Profissão:** Especialista em Segurança Digital, liderando **RedTeam**, **BlueTeam**, **Threat Hunting** e **Inteligência Cibernética** no **Banco do Brasil**.
-
-🎓 **Educador:** Professor universitário, formando as futuras mentes da segurança cibernética, abordando temas como **cibercrimes**, **criptografia**, **investigação forense** e **segurança em redes**.
-
-💡 **Inventor:** Criador do **BBCode**, protocolo inovador para autorização segura de transações bancárias.
-
-📖 **Pesquisador:** Exploro as fronteiras da **cibersegurança bancária**, **tecnologias de rede seguras**, e **gestão de vulnerabilidades**.
-
----
-
-## 🌍 Áreas de Atuação
-
-- 🛡️ **Defesa Digital:** Estratégias para mitigar ameaças avançadas e gerenciamento de vulnerabilidades.
-- 🧠 **Cyber Threat Hunting:** Busca proativa de ameaças cibernéticas com inteligência de alto nível.
-- 🔓 **Criptografia Avançada:** RSA, Diffie-Hellman, mTLS e Zero Trust.
-- 📊 **Forense Computacional:** Desvendando evidências digitais em ambientes complexos.
-- 🌐 **Segurança Bancária:** Proteção de transações e sistemas em escala massiva.
-  
----
-
-## 🦅 Como escrever um artigo ou um TCC 👉 [Dicas](https://github.com/peotta/peotta/blob/main/dicas.md)
-
----
-
-## 🦅 Grupo de Pesquisa RAVENS
-
-O **RAVENS – Research Group on Advanced Vulnerabilities, Networks and Security** é um grupo de pesquisa dedicado ao estudo avançado de **cibersegurança**, **redes de computadores**, **vulnerabilidades**, **defesa cibernética** e **análise de ameaças**.
-
-👉 https://github.com/peotta/ravens
+</div>
 
 ---
 
-## 📘 Disciplinas
+<h2>Apresentação</h2>
 
-Repositórios com materiais didáticos, laboratórios práticos, roteiros experimentais e recursos de apoio para disciplinas de graduação e pós-graduação na área de redes e segurança da informação.
+<p>
+Professor e pesquisador com atuação em <strong>segurança cibernética</strong>, <strong>redes de computadores</strong>, <strong>crimes cibernéticos</strong>, <strong>forense digital</strong> e <strong>segurança bancária</strong>.
+</p>
 
-### 🎓 Graduação
----
+<p>
+Mestre e Doutor em Engenharia Elétrica, desenvolve atividades de ensino, pesquisa aplicada e produção de materiais acadêmicos voltados à formação de estudantes e profissionais da área de computação.
+</p>
 
-- **ENE0011 – Laboratório de Redes**  
-  Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.  
-  👉 https://github.com/peotta/labredes   
----
-- **ENE0025 – Protocolos de Transporte e Roteamento**  
-  Estudos práticos e teóricos sobre protocolos de rede, arquitetura TCP/IP e roteamento.  
-  👉 https://github.com/peotta/PTR
----
-- ****ENE0021 – Tópicos em Redes de Comunicação 3****  
- A disciplina aborda tópicos avançados em **segurança de redes de comunicação**, contemplando princípios, técnicas, arquiteturas e práticas utilizadas na proteção de sistemas computacionais modernos. São discutidos aspectos de criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital e tendências atuais, incluindo DevSecOps e automação de segurança.
+<p>
+No setor profissional, atua com segurança digital em ambiente corporativo, com experiência em iniciativas relacionadas a <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>Threat Hunting</strong> e <strong>inteligência cibernética</strong>.
+</p>
 
-  👉 https://github.com/peotta/topicos
----
-  
-### 🎓 Pós-Graduação - PPEE - Mestrado profissional em Cybersegurança
-
-- **Tópicos Avançados em Cyber Segurança**  
-  Cibercrimes, ataques cibernéticos, redes anônimas, vulnerabilidades e privacidade.  
-  👉 https://github.com/peotta/topicos-avancados-cyber
+<p>
+Também é criador do <strong>BBCode</strong>, protocolo para autorização segura de transações bancárias.
+</p>
 
 ---
 
+<h2>Linhas de pesquisa e atuação</h2>
 
+<div align="center">
 
-## 📂 Projetos & Iniciativas
+<img src="https://img.shields.io/badge/Segurança%20Cibernética-1f4e79?style=for-the-badge" alt="Segurança Cibernética">
+<img src="https://img.shields.io/badge/Segurança%20de%20Redes-2e75b6?style=for-the-badge" alt="Segurança de Redes">
+<img src="https://img.shields.io/badge/Crimes%20Cibernéticos-5b9bd5?style=for-the-badge" alt="Crimes Cibernéticos">
+<img src="https://img.shields.io/badge/Forense%20Computacional-4472c4?style=for-the-badge" alt="Forense Computacional">
+<img src="https://img.shields.io/badge/Gestão%20de%20Vulnerabilidades-264478?style=for-the-badge" alt="Gestão de Vulnerabilidades">
+<img src="https://img.shields.io/badge/Criptografia%20Aplicada-17365d?style=for-the-badge" alt="Criptografia Aplicada">
 
-### 🛠️ **BBCode – Segurança na Palma da Mão**
-- Protocolo robusto de autenticação visual para transações bancárias.
-- [Leia mais](https://doi.org/10.3390/cryptography8040051)
-
-### 🚀 **Aulas e Materiais Didáticos**
-- Recursos abertos para graduandos e profissionais:
-  - Criptografia Assimétrica
-  - Protocolos de Segurança em Redes
-  - Controle de Acesso em Redes
-
----
-
-## 🛡️ Ferramentas e Tecnologias
-- **⚙️ Linguagens:** Python, Bash, C++, PowerShell  
-- **📡 Segurança:** SIEMs, IDS/IPS, Pentest, OSINT  
-- **🔐 Protocolos:** TLS/mTLS, OAuth2, Zero Trust  
-- **📈 Frameworks:** MITRE ATT&CK, NIST CSF, OWASP  
+</div>
 
 ---
 
-## 🌟 Conecte-se comigo!
-📧 **E-mail:** [peotta@gmail.com](mailto:peotta@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/laertepeotta](https://linkedin.com/in/laertepeotta)  
-🐱 **GitHub:** [github.com/laertepeotta](https://github.com/peotta)  
-🧑‍🔬 **ORCID:** [orcid.org/0000-0002-2075-6601](https://orcid.org/0000-0002-2075-6601)  
-📚 **Lattes:** [lattes.cnpq.br/0746844511320579](https://lattes.cnpq.br/0746844511320579)  
-📚 **dhlp:** [https://dblp.org/pid/235/0910.html](https://dblp.org/pid/235/0910.html) 
+<h2>Materiais de apoio acadêmico</h2>
+
+<table>
+  <tr>
+    <td width="70%">
+      <h3>Como escrever um artigo ou TCC</h3>
+      <p>
+        Material com orientações práticas para organização, escrita e desenvolvimento de trabalhos acadêmicos.
+      </p>
+    </td>
+    <td align="center">
+      <a href="https://github.com/peotta/peotta/blob/main/dicas.md">Acessar material</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-> _"A segurança cibernética não é só uma profissão – é uma missão."_  
-> – Prof. Laerte Peotta
+<h2>Disciplinas e repositórios didáticos</h2>
+
+<p>
+Repositórios com materiais de aula, laboratórios, roteiros experimentais, iniciativas de pesquisa e recursos de apoio para disciplinas de graduação e pós-graduação.
+</p>
+
+<h3>Graduação</h3>
+
+<table>
+  <tr>
+    <td><strong>ENE0011 — Laboratório de Redes</strong></td>
+    <td>Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.</td>
+    <td align="center"><a href="https://github.com/peotta/labredes">Acessar material</a></td>
+  </tr>
+  <tr>
+    <td><strong>ENE0025 — Protocolos de Transporte e Roteamento</strong></td>
+    <td>Conteúdos teóricos e práticos sobre arquitetura TCP/IP, protocolos de transporte e roteamento.</td>
+    <td align="center"><a href="https://github.com/peotta/PTR">Acessar material</a></td>
+  </tr>
+  <tr>
+    <td><strong>ENE0021 — Tópicos em Redes de Comunicação 3</strong></td>
+    <td>Disciplina voltada a tópicos avançados em segurança de redes de comunicação, incluindo criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital, DevSecOps e automação de segurança.</td>
+    <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
+  </tr>
+</table>
+
+<h3>Pós-graduação — PPEE / Mestrado Profissional em Cybersegurança</h3>
+
+<table>
+  <tr>
+    <td><strong>Tópicos Avançados em Cyber Segurança</strong></td>
+    <td>Aborda cibercrimes, ataques cibernéticos, redes anônimas, vulnerabilidades e privacidade.</td>
+    <td align="center"><a href="https://github.com/peotta/topicos-avancados-cyber">Acessar material</a></td>
+  </tr>
+</table>
+
+<h3>Pesquisa e extensão</h3>
+
+<table>
+  <tr>
+    <td><strong>RAVENS — Research Group on Advanced Vulnerabilities, Networks and Security</strong></td>
+    <td>Grupo dedicado ao estudo de cibersegurança, redes de computadores, vulnerabilidades, defesa cibernética e análise de ameaças.</td>
+    <td align="center"><a href="https://github.com/peotta/ravens">Acessar material</a></td>
+  </tr>
+</table>
+
+---
+
+<h2>Projetos e iniciativas</h2>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>BBCode</h3>
+      <p>
+        Protocolo de autenticação visual para autorização segura de transações bancárias.
+      </p>
+      <p>
+        <a href="https://doi.org/10.3390/cryptography8040051">Leia a publicação</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Materiais didáticos abertos</h3>
+      <p>
+        Produção e disponibilização de conteúdos em temas como criptografia assimétrica, protocolos de segurança em redes, controle de acesso em redes, monitoramento e defesa cibernética.
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+  <sub>Segurança cibernética exige rigor técnico, pesquisa contínua e compromisso com a formação de pessoas.</sub>
+</div>
