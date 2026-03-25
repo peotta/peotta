@@ -132,30 +132,6 @@ Repositórios com materiais de aula, laboratórios, roteiros experimentais, inic
 
 ---
 
-<h2>Projetos e iniciativas</h2>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>BBCode</h3>
-      <p>
-        Protocolo de autenticação visual para autorização segura de transações bancárias.
-      </p>
-      <p>
-        <a href="https://doi.org/10.3390/cryptography8040051">Leia a publicação</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Materiais didáticos abertos</h3>
-      <p>
-        Produção e disponibilização de conteúdos em temas como criptografia assimétrica, protocolos de segurança em redes, controle de acesso em redes, monitoramento e defesa cibernética.
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
 <div align="center">
   <sub>Segurança cibernética exige rigor técnico, pesquisa contínua e compromisso com a formação de pessoas.</sub>
 </div>
