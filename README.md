@@ -150,15 +150,29 @@ Repositórios com materiais de aula, laboratórios, roteiros experimentais, inic
   </tr>
 </table>
 
-<h3>Pesquisa e extensão</h3>
+<h2>Pesquisa e extensão</h2>
 
-<table>
-  <tr>
-    <td><strong>RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security</strong></td>
-    <td>Grupo dedicado ao estudo de cibersegurança, redes de computadores, vulnerabilidades, defesa cibernética e análise de ameaças.</td>
-    <td align="center"><a href="https://github.com/peotta/ravens">Acessar material</a></td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/peotta/ravens">
+    <img src="https://github.com/peotta/peotta/blob/main/image/ravens-1.webp" alt="RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security" width="420">
+  </a>
+</div>
+
+<br>
+
+<p align="center">
+  O <strong>RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security</strong>
+  é um grupo de pesquisa dedicado ao estudo de <strong>cibersegurança</strong>,
+  <strong>redes de computadores</strong>, <strong>vulnerabilidades</strong>,
+  <strong>defesa cibernética</strong> e <strong>análise de ameaças</strong>,
+  promovendo atividades de pesquisa, formação acadêmica e desenvolvimento de materiais
+  relacionados à segurança em ambientes computacionais modernos.
+</p>
+
+<p align="center">
+  <a href="https://github.com/peotta/ravens">Acessar repositório do grupo</a>
+</p>
+
 
 ---
 
