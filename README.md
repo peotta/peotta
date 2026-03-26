@@ -82,6 +82,30 @@ Também é criador do <strong>BBCode</strong>, protocolo para autorização segu
   </tr>
 </table>
 
+<h2>Podcast Latência Zero</h2>
+
+<div align="center">
+  <a href="https://spotifycreators-web.app.link/e/4Wu544oVN1b">
+    <img src="https://github.com/peotta/PTR/blob/main/images/latencia-zero-podcast.png" alt="Podcast Latência Zero - Engenharia de Redes da UnB" width="420">
+  </a>
+</div>
+<BR>
+<p align="center">
+  O podcast <strong>Latência Zero</strong> reúne discussões relacionadas aos temas de
+  <strong>redes de computadores</strong>, <strong>latência</strong>,
+  <strong>infraestrutura</strong> e <strong>comunicação em redes</strong>,
+  em diálogo com conteúdos abordados em aula.
+</p>
+
+
+
+
+<p align="center">
+  <a href="https://spotifycreators-web.app.link/e/4Wu544oVN1b">
+    <img src="https://img.shields.io/badge/Ouvir%20no%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Ouvir no Spotify">
+  </a>
+</p>
+
 ---
 
 <h2>Disciplinas e repositórios didáticos</h2>
