@@ -132,6 +132,12 @@ Repositórios com materiais de aula, laboratórios, roteiros experimentais, inic
     <td>Disciplina voltada a tópicos avançados em segurança de redes de comunicação, incluindo criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital, DevSecOps e automação de segurança.</td>
     <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
   </tr>
+
+  <tr>
+    <td><strong>ENE0274 - Fundamentos de Redes</strong></td>
+    <td>Disciplina voltada a Introdução aos protocolos de rede</td>
+    <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
+  </tr>
 </table>
 
 <h3>Pós-graduação - PPEE / Mestrado Profissional em Cybersegurança</h3>
