@@ -94,23 +94,23 @@ Repositórios com materiais de aula, laboratórios, roteiros experimentais, inic
 
 <table>
   <tr>
-    <td><strong>ENE0011 — Laboratório de Redes</strong></td>
+    <td><strong>ENE0011 - Laboratório de Redes</strong></td>
     <td>Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.</td>
     <td align="center"><a href="https://github.com/peotta/labredes">Acessar material</a></td>
   </tr>
   <tr>
-    <td><strong>ENE0025 — Protocolos de Transporte e Roteamento</strong></td>
+    <td><strong>ENE0025 - Protocolos de Transporte e Roteamento</strong></td>
     <td>Conteúdos teóricos e práticos sobre arquitetura TCP/IP, protocolos de transporte e roteamento.</td>
     <td align="center"><a href="https://github.com/peotta/PTR">Acessar material</a></td>
   </tr>
   <tr>
-    <td><strong>ENE0021 — Tópicos em Redes de Comunicação 3</strong></td>
+    <td><strong>ENE0021 - Tópicos em Redes de Comunicação 3</strong></td>
     <td>Disciplina voltada a tópicos avançados em segurança de redes de comunicação, incluindo criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital, DevSecOps e automação de segurança.</td>
     <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
   </tr>
 </table>
 
-<h3>Pós-graduação — PPEE / Mestrado Profissional em Cybersegurança</h3>
+<h3>Pós-graduação - PPEE / Mestrado Profissional em Cybersegurança</h3>
 
 <table>
   <tr>
@@ -124,7 +124,7 @@ Repositórios com materiais de aula, laboratórios, roteiros experimentais, inic
 
 <table>
   <tr>
-    <td><strong>RAVENS — Research Group on Advanced Vulnerabilities, Networks and Security</strong></td>
+    <td><strong>RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security</strong></td>
     <td>Grupo dedicado ao estudo de cibersegurança, redes de computadores, vulnerabilidades, defesa cibernética e análise de ameaças.</td>
     <td align="center"><a href="https://github.com/peotta/ravens">Acessar material</a></td>
   </tr>
