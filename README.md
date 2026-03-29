@@ -1,13 +1,17 @@
 <div align="center">
 
-<h1>Prof. Dr. Laerte Peotta de Melo</h1>
+<h1>📢 Aviso importante</h1>
 
 <p>
-  Este conteúdo está disponível em minha página principal.
+  Este repositório não concentra mais as informações atualizadas.
 </p>
 
 <p>
-  <a href="https://peotta.github.io"><strong>Acessar peotta.github.io</strong></a>
+  Todo o conteúdo foi centralizado em:
 </p>
+
+<h2>
+  <a href="https://peotta.github.io">➡️ peotta.github.io</a>
+</h2>
 
 </div>
