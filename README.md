@@ -1,181 +1,640 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof. Dr. Laerte Peotta de Melo</title>
+  <meta name="description" content="Site acadêmico e profissional de Prof. Dr. Laerte Peotta de Melo, com atuação em cibersegurança, redes de computadores, crimes cibernéticos e forense digital." />
+  <style>
+    :root {
+      --bg: #030604;
+      --bg-soft: #06110a;
+      --card: rgba(6, 20, 10, 0.72);
+      --card-border: rgba(69, 255, 146, 0.18);
+      --text: #d8ffe7;
+      --muted: #96c6a8;
+      --primary: #48ff8b;
+      --secondary: #00d26a;
+      --accent: #8bffb3;
+      --shadow: 0 20px 60px rgba(0,0,0,0.45);
+      --radius: 22px;
+      --max: 1180px;
+    }
 
-<h1>Prof. Dr. Laerte Peotta de Melo</h1>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
-<p>
-  <strong>Professor | Pesquisador | Segurança Cibernética | Redes de Computadores</strong>
-</p>
+    body {
+      margin: 0;
+      font-family: Inter, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(72,255,139,0.10), transparent 22%),
+        radial-gradient(circle at top right, rgba(0,210,106,0.08), transparent 22%),
+        linear-gradient(180deg, #010201 0%, #020704 50%, #031008 100%);
+      line-height: 1.65;
+      position: relative;
+      overflow-x: hidden;
+    }
 
-<p>
-  <a href="mailto:peotta@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-peotta%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail">
-  </a>
-  <a href="https://orcid.org/0000-0002-2075-6601">
-    <img src="https://img.shields.io/badge/ORCID-0000--0002--2075--6601-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID">
-  </a>
-  <a href="https://lattes.cnpq.br/0746844511320579">
-    <img src="https://img.shields.io/badge/Lattes-Curr%C3%ADculo-005CA9?style=for-the-badge" alt="Lattes">
-  </a>
-  <a href="https://dblp.org/pid/235/0910.html">
-    <img src="https://img.shields.io/badge/DBLP-Perfil-1F6FEB?style=for-the-badge" alt="DBLP">
-  </a>
-  <a href="https://linkedin.com/in/laertepeotta">
-    <img src="https://img.shields.io/badge/LinkedIn-Laerte%20Peotta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/peotta">
-    <img src="https://img.shields.io/badge/GitHub-peotta-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(72,255,139,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(72,255,139,0.05) 1px, transparent 1px);
+      background-size: 32px 32px;
+      pointer-events: none;
+      opacity: 0.22;
+      z-index: -2;
+    }
 
-</div>
+    body::after {
+      content: "010101 001101 101010 011010 110001 001011 101101 010110";
+      position: fixed;
+      inset: 0;
+      white-space: pre-wrap;
+      word-break: break-all;
+      font-size: 13px;
+      line-height: 1.8;
+      color: rgba(72,255,139,0.05);
+      pointer-events: none;
+      z-index: -1;
+      padding: 2rem;
+    }
 
----
+    a { color: inherit; text-decoration: none; }
 
-<h2>Apresentação</h2>
+    .container {
+      width: min(calc(100% - 2rem), var(--max));
+      margin: 0 auto;
+    }
 
-<p>
-Professor e pesquisador com atuação em <strong>segurança cibernética</strong>, <strong>redes de computadores</strong>, <strong>crimes cibernéticos</strong>, <strong>forense digital</strong> e <strong>segurança bancária</strong>.
-</p>
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(14px);
+      background: rgba(2, 10, 5, 0.84);
+      border-bottom: 1px solid rgba(72,255,139,0.16);
+    }
 
-<p>
-Mestre e Doutor em Engenharia Elétrica, desenvolve atividades de ensino, pesquisa aplicada e produção de materiais acadêmicos voltados à formação de estudantes e profissionais da área de computação.
-</p>
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.9rem 0;
+      gap: 1rem;
+    }
 
-<p>
-No setor profissional, atua com segurança digital em ambiente corporativo, com experiência em iniciativas relacionadas a <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>Threat Hunting</strong> e <strong>inteligência cibernética</strong>.
-</p>
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      text-transform: uppercase;
+      text-shadow: 0 0 12px rgba(72,255,139,0.35);
+    }
 
-<p>
-Também é criador do <strong>BBCode</strong>, protocolo para autorização segura de transações bancárias.
-</p>
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      justify-content: flex-end;
+    }
 
----
+    .menu a {
+      color: var(--muted);
+      font-size: 0.96rem;
+      transition: 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
 
-<h2>Linhas de pesquisa e atuação</h2>
+    .menu a:hover { color: white; }
 
-<div align="center">
+    .hero {
+      padding: 4.2rem 0 2.8rem;
+    }
 
-<img src="https://img.shields.io/badge/Segurança%20Cibernética-1f4e79?style=for-the-badge" alt="Segurança Cibernética">
-<img src="https://img.shields.io/badge/Segurança%20de%20Redes-2e75b6?style=for-the-badge" alt="Segurança de Redes">
-<img src="https://img.shields.io/badge/Crimes%20Cibernéticos-5b9bd5?style=for-the-badge" alt="Crimes Cibernéticos">
-<img src="https://img.shields.io/badge/Forense%20Computacional-4472c4?style=for-the-badge" alt="Forense Computacional">
-<img src="https://img.shields.io/badge/Gestão%20de%20Vulnerabilidades-264478?style=for-the-badge" alt="Gestão de Vulnerabilidades">
-<img src="https://img.shields.io/badge/Criptografia%20Aplicada-17365d?style=for-the-badge" alt="Criptografia Aplicada">
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 2rem;
+      align-items: center;
+    }
 
-</div>
+    .hero-photo-wrap {
+      display: flex;
+      justify-content: center;
+    }
 
----
+    .hero-photo {
+      width: min(100%, 430px);
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 28px;
+      border: 1px solid rgba(72,255,139,0.22);
+      box-shadow: var(--shadow), 0 0 30px rgba(72,255,139,0.18);
+      background: rgba(255,255,255,0.04);
+    }
 
-<h2>Materiais de apoio acadêmico</h2>
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.45rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(72,255,139,0.10);
+      border: 1px solid rgba(72,255,139,0.18);
+      color: #e2ffee;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
 
-<table>
-  <tr>
-    <td width="70%">
-      <h3>Como escrever um artigo ou TCC</h3>
-      <p>
-        Material com orientações práticas para organização, escrita e desenvolvimento de trabalhos acadêmicos.
-      </p>
-    </td>
-    <td align="center">
-      <a href="https://github.com/peotta/peotta/blob/main/dicas.md">Acessar material</a>
-    </td>
-  </tr>
-</table>
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 4.8rem);
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      text-shadow: 0 0 18px rgba(72,255,139,0.14);
+    }
 
-<h2>Podcast Latência Zero</h2>
+    .hero p {
+      color: var(--muted);
+      font-size: 1.04rem;
+      max-width: 62ch;
+      margin: 1.1rem 0 0;
+    }
 
-<div align="center">
-  <a href="https://spotifycreators-web.app.link/e/4Wu544oVN1b">
-    <img src="https://github.com/peotta/PTR/blob/main/images/latencia-zero-podcast.png" alt="Podcast Latência Zero - Engenharia de Redes da UnB" width="420">
-  </a>
-</div>
-<BR>
-<p align="center">
-  O podcast <strong>Latência Zero</strong> reúne discussões relacionadas aos temas de
-  <strong>redes de computadores</strong>, <strong>latência</strong>,
-  <strong>infraestrutura</strong> e <strong>comunicação em redes</strong>,
-  em diálogo com conteúdos abordados em aula.
-</p>
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin-top: 1.6rem;
+    }
 
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      padding: 0.95rem 1.2rem;
+      border-radius: 12px;
+      font-weight: 700;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
 
+    .button:hover { transform: translateY(-2px); }
 
+    .button-primary {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #041108;
+      box-shadow: var(--shadow);
+    }
 
-<p align="center">
-  <a href="https://spotifycreators-web.app.link/e/4Wu544oVN1b">
-    <img src="https://img.shields.io/badge/Ouvir%20no%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Ouvir no Spotify">
-  </a>
-</p>
+    .button-secondary {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(72,255,139,0.18);
+      color: var(--text);
+    }
 
----
+    .card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.35rem;
+      backdrop-filter: blur(8px);
+    }
 
-<h2>Disciplinas e repositórios didáticos</h2>
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.9rem;
+      margin-top: 1.3rem;
+    }
 
-<p>
-Repositórios com materiais de aula, laboratórios, roteiros experimentais, iniciativas de pesquisa e recursos de apoio para disciplinas de graduação e pós-graduação.
-</p>
+    .metric {
+      padding: 1rem;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(72,255,139,0.10);
+    }
 
-<h3>Graduação</h3>
+    .metric strong {
+      display: block;
+      font-size: 1.05rem;
+      margin-bottom: 0.22rem;
+    }
 
-<table>
-  <tr>
-    <td><strong>ENE0011 - Laboratório de Redes</strong></td>
-    <td>Laboratórios práticos envolvendo dispositivos de rede, análise de protocolos, VLANs e roteamento.</td>
-    <td align="center"><a href="https://github.com/peotta/labredes">Acessar material</a></td>
-  </tr>
-  <tr>
-    <td><strong>ENE0025 - Protocolos de Transporte e Roteamento</strong></td>
-    <td>Conteúdos teóricos e práticos sobre arquitetura TCP/IP, protocolos de transporte e roteamento.</td>
-    <td align="center"><a href="https://github.com/peotta/PTR">Acessar material</a></td>
-  </tr>
-  <tr>
-    <td><strong>ENE0021 - Tópicos em Redes de Comunicação 3</strong></td>
-    <td>Disciplina voltada a tópicos avançados em segurança de redes de comunicação, incluindo criptografia, segurança de software, sistemas operacionais, virtualização, resposta a incidentes, forense digital, DevSecOps e automação de segurança.</td>
-    <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
-  </tr>
+    .metric span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
 
-  <tr>
-    <td><strong>ENE0274 - Fundamentos de Redes</strong></td>
-    <td>Disciplina voltada a Introdução aos protocolos de rede</td>
-    <td align="center"><a href="https://github.com/peotta/topicos">Acessar material</a></td>
-  </tr>
-</table>
+    section { padding: 1.2rem 0; }
 
-<h3>Pós-graduação - PPEE / Mestrado Profissional em Cybersegurança</h3>
+    .section-head {
+      margin-bottom: 1.2rem;
+    }
 
-<table>
-  <tr>
-    <td><strong>Tópicos Avançados em Cyber Segurança</strong></td>
-    <td>Aborda cibercrimes, ataques cibernéticos, redes anônimas, vulnerabilidades e privacidade.</td>
-    <td align="center"><a href="https://github.com/peotta/topicos-avancados-cyber">Acessar material</a></td>
-  </tr>
-</table>
+    .section-head h2 {
+      font-size: clamp(1.6rem, 3vw, 2.35rem);
+      margin: 0 0 0.4rem;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+    }
 
-<h2>Pesquisa e extensão</h2>
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 72ch;
+    }
 
-<div align="center">
-  <a href="https://github.com/peotta/ravens">
-    <img src="https://github.com/peotta/peotta/blob/main/image/ravens-1.webp" alt="RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security" width="420">
-  </a>
-</div>
+    .about-grid,
+    .highlight-grid,
+    .links-grid,
+    .repo-grid,
+    .split {
+      display: grid;
+      gap: 1.2rem;
+    }
 
-<br>
+    .about-grid { grid-template-columns: 1.15fr 0.85fr; }
+    .highlight-grid { grid-template-columns: repeat(3, 1fr); }
+    .links-grid { grid-template-columns: repeat(3, 1fr); }
+    .repo-grid { grid-template-columns: repeat(2, 1fr); }
+    .split { grid-template-columns: 1fr 1fr; }
 
-<p align="center">
-  O <strong>RAVENS - Research Group on Advanced Vulnerabilities, Networks and Security</strong>
-  é um grupo de pesquisa dedicado ao estudo de <strong>cibersegurança</strong>,
-  <strong>redes de computadores</strong>, <strong>vulnerabilidades</strong>,
-  <strong>defesa cibernética</strong> e <strong>análise de ameaças</strong>,
-  promovendo atividades de pesquisa, formação acadêmica e desenvolvimento de materiais
-  relacionados à segurança em ambientes computacionais modernos.
-</p>
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1rem;
+    }
 
-<p align="center">
-  <a href="https://github.com/peotta/ravens">Acessar repositório do grupo</a>
-</p>
+    .tag {
+      padding: 0.62rem 0.9rem;
+      border-radius: 999px;
+      background: rgba(72,255,139,0.08);
+      border: 1px solid rgba(72,255,139,0.16);
+      color: #ddffea;
+      font-size: 0.92rem;
+    }
 
+    .list {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
 
----
+    .link-card {
+      display: block;
+      height: 100%;
+      padding: 1.2rem;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(72,255,139,0.12);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
 
-<div align="center">
-  <sub>Segurança cibernética exige rigor técnico, pesquisa contínua e compromisso com a formação de pessoas.</sub>
-</div>
+    .link-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(72,255,139,0.32);
+    }
+
+    .link-card strong {
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    .repo-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      padding: 1.3rem;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(72,255,139,0.12);
+    }
+
+    .repo-meta {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .podcast-banner, .ravens-banner {
+      width: 100%;
+      border-radius: 22px;
+      border: 1px solid rgba(72,255,139,0.16);
+      display: block;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 0.85rem;
+    }
+
+    .contact-item {
+      padding: 0.95rem 1rem;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(72,255,139,0.10);
+    }
+
+    .contact-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-weight: 700;
+    }
+
+    .ene-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 0.1rem;
+    }
+
+    .unb-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, #0c3e7c 0 36%, #00861a 36% 100%);
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,0.08);
+      flex: 0 0 20px;
+    }
+
+    .muted { color: var(--muted); }
+
+    footer {
+      padding: 2.5rem 0 4rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .about-grid,
+      .split,
+      .highlight-grid,
+      .links-grid,
+      .repo-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .menu { display: none; }
+      .hero { padding-top: 3rem; }
+      .hero-photo { max-width: 340px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Prof. Dr. Laerte Peotta de Melo</div>
+      <div class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#repositorios">Repositórios</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Professor • Pesquisador • Segurança Cibernética • Redes</div>
+        <h1>Prof. Dr. Laerte Peotta de Melo</h1>
+        <p>
+          Professor, pesquisador e profissional com atuação em <strong>Cibersegurança</strong>, <strong>Engenharia de Redes</strong>, <strong>Ciência da Computação</strong>, <strong>crimes cibernéticos</strong>, <strong>forense digital</strong> e <strong>segurança bancária</strong>. Mestre e Doutor em Engenharia Elétrica, articula ensino, pesquisa aplicada e produção de materiais acadêmicos e técnicos voltados à formação e ao desenvolvimento profissional.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#repositorios">Ver repositórios</a>
+          <a class="button button-secondary" href="https://github.com/peotta" target="_blank" rel="noreferrer">↗ GitHub</a>
+        </div>
+        <div class="metric-grid">
+          <div class="metric">
+            <strong>Ensino</strong>
+            <span>Graduação, especialização, mestrado e doutorado em Cibersegurança, Engenharia de Redes e Ciência da Computação</span>
+          </div>
+          <div class="metric">
+            <strong>Pesquisa</strong>
+            <span>Segurança digital, vulnerabilidades, investigação e defesa</span>
+          </div>
+          <div class="metric">
+            <strong>Mercado</strong>
+            <span>Red Team, Blue Team, Threat Hunting e inteligência cibernética</span>
+          </div>
+          <div class="metric">
+            <strong>Inovação</strong>
+            <span>Criador do BBCode para autorização segura de transações</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="Foto Perfil UnB.png" alt="Foto de perfil do Prof. Dr. Laerte Peotta de Melo" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <div class="container">
+        <div class="section-head">
+          <h2>Sobre</h2>
+          
+        </div>
+        <div class="about-grid">
+          <article class="card">
+            <h3>Trajetória</h3>
+            <p>
+              Desenvolve atividades de formação, pesquisa e elaboração de projetos nas áreas de segurança digital, redes de comunicação, investigação de incidentes e tecnologias seguras, integrando fundamentos teóricos e aplicação prática.
+            </p>
+            <p>
+              No contexto profissional, possui experiência em iniciativas relacionadas a Red Team, Blue Team, Threat Hunting e inteligência cibernética.
+            </p>
+          </article>
+          <aside class="card">
+            <h3>Destaques</h3>
+            <ul class="list">
+              <li>Segurança bancária e protocolos seguros</li>
+              <li>Defesa cibernética e análise de ameaças</li>
+              <li>Investigação de incidentes e forense digital</li>
+              <li>Formação em redes, segurança e computação</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="atuacao">
+      <div class="container">
+        <div class="section-head">
+          <h2>Áreas de atuação</h2>
+          
+        </div>
+        <div class="card">
+          <div class="tag-list">
+            <span class="tag">Segurança Cibernética</span>
+            <span class="tag">Segurança de Redes</span>
+            <span class="tag">Crimes Cibernéticos</span>
+            <span class="tag">Forense Computacional</span>
+            <span class="tag">Gestão de Vulnerabilidades</span>
+            <span class="tag">Criptografia Aplicada</span>
+            <span class="tag">Cyber Threat Hunting</span>
+            <span class="tag">Segurança Bancária</span>
+          </div>
+        </div>
+        <div class="highlight-grid" style="margin-top: 1.2rem;">
+          <article class="card">
+            <h3>Ensino</h3>
+            <p class="muted">Disciplinas, laboratórios e materiais voltados à formação em graduação e pós-graduação.</p>
+          </article>
+          <article class="card">
+            <h3>Pesquisa</h3>
+            <p class="muted">Estudos e projetos em segurança, vulnerabilidades, redes e defesa cibernética.</p>
+          </article>
+          <article class="card">
+            <h3>Aplicação prática</h3>
+            <p class="muted">Integração entre fundamentos conceituais e cenários reais de segurança digital.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Perfis e links acadêmicos</h2>
+          
+        </div>
+        <div class="links-grid">
+          <a class="link-card" href="mailto:peotta@gmail.com"><strong>E-mail</strong><span class="muted">peotta@gmail.com</span></a>
+          <a class="link-card" href="https://orcid.org/0000-0002-2075-6601" target="_blank" rel="noreferrer"><strong>ORCID</strong><span class="muted">0000-0002-2075-6601</span></a>
+          <a class="link-card" href="https://lattes.cnpq.br/0746844511320579" target="_blank" rel="noreferrer"><strong>Currículo Lattes</strong><span class="muted">Produção acadêmica e trajetória</span></a>
+          <a class="link-card" href="https://dblp.org/pid/235/0910.html" target="_blank" rel="noreferrer"><strong>DBLP</strong><span class="muted">Publicações em computação</span></a>
+          <a class="link-card" href="https://linkedin.com/in/laertepeotta" target="_blank" rel="noreferrer"><strong>LinkedIn</strong><span class="muted">Rede profissional</span></a>
+          <a class="link-card" href="https://github.com/peotta" target="_blank" rel="noreferrer"><strong>GitHub</strong><span class="muted">Repositórios e materiais</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="repositorios">
+      <div class="container">
+        <div class="section-head">
+          <h2>Repositórios e materiais</h2>
+          
+        </div>
+        <div class="repo-grid">
+          <article class="repo-card">
+            <div class="ene-badge"><span class="unb-icon"></span> Universidade de Brasília</div>
+            <h3>ENE0011 - Laboratório de Redes</h3>
+            <p class="muted">Atividades experimentais com dispositivos de rede, análise de protocolos, VLANs e roteamento.</p>
+            <div class="repo-meta">Graduação em Engenharia de Redes de Comunicação</div>
+            <a class="button button-secondary" href="https://github.com/peotta/labredes" target="_blank" rel="noreferrer">Abrir repositório</a>
+          </article>
+          <article class="repo-card">
+            <div class="ene-badge"><span class="unb-icon"></span> Universidade de Brasília</div>
+            <h3>ENE0025 - Protocolos de Transporte e Roteamento</h3>
+            <p class="muted">Estudo da arquitetura TCP/IP, dos protocolos de transporte e dos fundamentos de roteamento.</p>
+            <div class="repo-meta">Graduação em Engenharia de Redes de Comunicação</div>
+            <a class="button button-secondary" href="https://github.com/peotta/PTR" target="_blank" rel="noreferrer">Abrir repositório</a>
+          </article>
+          <article class="repo-card">
+            <div class="ene-badge"><span class="unb-icon"></span> Universidade de Brasília</div>
+            <h3>ENE0021 - Tópicos em Redes de Comunicação 3</h3>
+            <p class="muted">Abordagem de temas avançados em segurança de redes, criptografia, resposta a incidentes, forense digital, DevSecOps e automação.</p>
+            <div class="repo-meta">Graduação em Engenharia de Redes de Comunicação</div>
+            <a class="button button-secondary" href="https://github.com/peotta/topicos" target="_blank" rel="noreferrer">Abrir repositório</a>
+          </article>
+          <article class="repo-card">
+            <div class="ene-badge"><span class="unb-icon"></span> Universidade de Brasília</div>
+            <h3>ENE0274 - Fundamentos de Redes</h3>
+            <p class="muted">Fundamentos conceituais sobre protocolos, serviços e arquitetura de redes de computadores.</p>
+            <div class="repo-meta">Graduação em Engenharia de Redes de Comunicação</div>
+            <a class="button button-secondary" href="https://github.com/peotta/topicos" target="_blank" rel="noreferrer">Abrir repositório</a>
+          </article>
+          <article class="repo-card">
+            <h3>Tópicos Avançados em Cyber Segurança</h3>
+            <p class="muted">Discussão avançada sobre cibercrimes, ataques cibernéticos, vulnerabilidades, privacidade e redes anônimas.</p>
+            <div class="repo-meta">Pós-graduação</div>
+            <a class="button button-secondary" href="https://github.com/peotta/topicos-avancados-cyber" target="_blank" rel="noreferrer">Abrir repositório</a>
+          </article>
+          <article class="repo-card">
+            <h3>Guia - Como escrever um artigo ou TCC</h3>
+            <p class="muted">Material de apoio para organização, escrita e desenvolvimento de trabalhos acadêmicos.</p>
+            <div class="repo-meta">Material de apoio</div>
+            <a class="button button-secondary" href="https://github.com/peotta/peotta/blob/main/dicas.md" target="_blank" rel="noreferrer">Ler material</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="podcast">
+      <div class="container split">
+        <article class="card">
+          <h2>Podcast Latência Zero</h2>
+          <p>
+            Podcast dedicado a redes de computadores, infraestrutura, desempenho e temas associados às atividades de ensino.
+          </p>
+          <a class="button button-primary" href="https://spotifycreators-web.app.link/e/4Wu544oVN1b" target="_blank" rel="noreferrer">Ouvir no Spotify</a>
+        </article>
+        <article class="card">
+          <a href="https://spotifycreators-web.app.link/e/4Wu544oVN1b" target="_blank" rel="noreferrer">
+            <img class="podcast-banner" src="Latência Zero 2 - podcast.png" alt="Podcast Latência Zero" />
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <article class="card">
+          <h2>Pesquisa e extensão</h2>
+          <p>
+            Grupo voltado à pesquisa, à formação acadêmica e à produção técnica em cibersegurança, redes, vulnerabilidades e análise de ameaças.
+          </p>
+          <a class="button button-secondary" href="https://github.com/peotta/ravens" target="_blank" rel="noreferrer">Acessar RAVENS</a>
+        </article>
+        <article class="card">
+          <img class="ravens-banner" src="ravens-1.webp" alt="Imagem do grupo RAVENS" />
+        </article>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contato</h2>
+        </div>
+        <div class="card">
+          <div class="contact-list">
+            <div class="contact-item"><span class="contact-label">✉ Gmail</span> peotta@gmail.com</div>
+            <div class="contact-item"><span class="contact-label">⌘ GitHub</span> github.com/peotta</div>
+            <div class="contact-item"><span class="contact-label">◉ LinkedIn</span> linkedin.com/in/laertepeotta</div>
+            <div class="contact-item"><span class="contact-label">◎ ORCID</span> 0000-0002-2075-6601</div>
+            <div class="contact-item"><span class="contact-label">▣ Lattes</span> lattes.cnpq.br/0746844511320579</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Prof. Dr. Laerte Peotta de Melo - ensino, pesquisa e atuação em cibersegurança, redes e computação.</p>
+    </div>
+  </footer>
+</body>
+</html>
